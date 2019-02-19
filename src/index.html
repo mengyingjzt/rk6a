@@ -64,7 +64,11 @@
     var lis = document.querySelectorAll('.head li');
     lis.forEach(function(item) {
         item.onclick = function() {
+            lis.forEach(function(item) {
+                item.className = ""
+            })
             this.classList.add("active");
+
         }
     })
 </script>
