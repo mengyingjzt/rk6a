@@ -29,3 +29,20 @@ body {
     border-bottom: 2px solid blue;
     padding: 0 10px;
 }
+
+.main_con {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    .top {
+        background: #FD6060;
+        display: flex;
+        justify-content: space-between;
+        line-height: 50px;
+    }
+    .bot {
+        line-height: 30px;
+    }
+}
